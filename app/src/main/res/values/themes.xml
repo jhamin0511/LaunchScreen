@@ -14,5 +14,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="LaunchScreen" parent="Theme.MaterialComponents.Light.NoActionBar"></style>
+    <style name="LaunchScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/purple_500</item>
+    </style>
 </resources>
