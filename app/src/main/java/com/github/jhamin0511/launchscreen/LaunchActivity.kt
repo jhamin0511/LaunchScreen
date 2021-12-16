@@ -21,6 +21,7 @@ class LaunchActivity : AppCompatActivity() {
             } else {
                 startActivity(MainActivity.start(this))
             }
+            overridePendingTransition(0, R.anim.transition_launch_finish)
         }, TimeUnit.SECONDS.toMillis(1))
     }
 
